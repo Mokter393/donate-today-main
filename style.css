@@ -154,6 +154,9 @@ placeholder{
     font-size: 18px;
     color: grey;
 }
+.donate-contribute-bottom{
+    margin-bottom: 100px;
+}
 .contribute-container{
     display: flex;
     justify-content: center;
@@ -197,5 +200,55 @@ placeholder{
         color: white;
         border-radius: 7px;
         letter-spacing: 1.5px;
+}
+.subscribe-area{
+    margin-bottom: 100px;
+}
+.subscribe-top{
+    margin-bottom: 50px;
+}
+.subscribe-top h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.subscribe-top p{
+    text-align: center;
+}
+.subscribe-bottom{
+    width: 45%;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #FFF4D6;
+    justify-content: center;
+    align-items: center;
+}
+.input-area{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.input-area [type="email"]{
+    width: 220px;
+    height: 25px;
+    background-color: #D9D9D9;
+    outline: none;
+    border-radius: 3px;
+    overflow: hidden;
+    border-style: none;
+    padding: 6px 10px;
+}
+.input-area [type="submit"]{
+        text-decoration: none;
+        font-size: 13px;
+        padding: 8px 30px;
+        background-color: #FF5959;
+        color: white;
+        border-radius: 0px 5px 5px 0px;
+        letter-spacing: 1px;
+        border-style: none;
+        
 }
     
