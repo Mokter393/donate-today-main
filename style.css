@@ -37,9 +37,10 @@
     font-size: 15px;
     font-weight: 900;
     padding: 20px 35px;
-    background-color: tomato;
+    background-color: #FF5959;
     color: white;
     border-radius: 7px;
+    letter-spacing: 1.5px;
 }
 .donate-today{
     height: 80vh;
@@ -100,16 +101,20 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 70px;
-    color: #eee8e8;
+    color: #646363;
+}
+placeholder{
+    color: #EDF5F6;
 }
 .donate-today-btn{
     text-decoration: none;
     font-size: 15px;
     font-weight: 800;
     padding: 20px 35px;
-    background-color: tomato;
+    background-color: #FF5959;
     color: white;
     border-radius: 7px;
+    letter-spacing: 1.5px;
 }
 .donate-plan-box{
     display: flex;
@@ -148,5 +153,49 @@
 .box-item p{
     font-size: 18px;
     color: grey;
+}
+.contribute-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.contribute-left h1{
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contribute-left p{
+    text-align: left;
+    margin-bottom: 40px;
+    color: grey;
+}
+.contribute-right{
+    width: 50%;
+    padding: 40px;
+}
+.contribute-left{
+    width: 50%;
+    align-items: center;
+    padding: 40px;
+    margin: 0 auto;
+}
+.contribute-right img{
+    width: 85%;
+    height: 430px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.contribute-btn{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 800;
+        padding: 15px 30px;
+        background-color: #FF5959;
+        color: white;
+        border-radius: 7px;
+        letter-spacing: 1.5px;
 }
     
