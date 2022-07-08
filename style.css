@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 .banner-main{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.377), rgba(10, 0, 8, 0.76)),
@@ -22,21 +23,19 @@
 }
 
 .top-banner h1{
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 900;
     margin-bottom: 10px;
+    font-stretch: narrower;
 }
 .top-banner p{
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 60px;
 }
 .top-banner a{
     text-decoration: none;
     font-size: 15px;
-    font-weight: 800;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
     padding: 20px 35px;
     background-color: tomato;
     color: white;
@@ -50,15 +49,13 @@
 }
 .donate-today-top h1{
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     margin-bottom: 15px;
     color: black;
 }
 .donate-today-top p{
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     color: gray;
 }
 .donate-today-mid{
@@ -67,14 +64,15 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 0px;
 }
 .donate-today-mid li{
     align-items: center;
     text-align: center;
     justify-content: center;
     font-size: 22px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
+    margin-bottom: 0px;
     
 }
 .donate-today-mid a{
@@ -86,30 +84,69 @@
     color: grey;
 }
 .donate-today-mid a:hover{
-    background-color: #fce1dd;
-    color: tomato;
-    border: 3px solid tomato;
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 3px solid #FF5959;
 }
 #donate{
     width: 50%;
-    height: 80px;
+    height: 60px;
     border-bottom: 2px solid rgb(146, 145, 145);
     outline: none;
     overflow: visible;
     border: none;
     border-bottom: 2px solid rgb(204, 202, 202);
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    color: #eee8e8;
 }
 .donate-today-btn{
     text-decoration: none;
     font-size: 15px;
     font-weight: 800;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px 35px;
     background-color: tomato;
     color: white;
     border-radius: 7px;
 }
+.donate-plan-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.box-item{
+    margin-right: 30px;
+    padding: 70px 40px;
+    text-align: left;
+    background-color: #EDF5F6;
+    margin-top: 60px;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.donate-plan-container h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    font-weight: 900;
+}
+.para{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+}
+.box-item h3{
+    margin: 20px 0px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.box-item p{
+    font-size: 18px;
+    color: grey;
+}
+    
